@@ -1,0 +1,723 @@
+.header_container{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7) ), url("pexels-photo.jpg"); background-size: 100%;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 5%;
+}   
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+
+.link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 120px;
+    padding: 0px 23px;
+    color: #212121;
+}
+
+.logo{
+    color: #212121;
+    width: 128px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 28px;
+}
+
+.fa-search{
+    color: #212121;
+    line-height: 120px;
+}
+
+.burger{
+    display: none;
+    width: 40px;
+
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    margin-bottom: 5px;
+    background-color: #212121;
+}
+
+.title{
+    color: white;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 13% 0% 2%;
+}
+
+.sub_title{
+    color: white;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.buttoms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.our_services{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 64px;
+    outline: 3px solid white;
+    width: 214px;
+    height: 64px;
+    margin: 8% 0% 0% 0%;
+    
+}
+
+.hire_is_now{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    background-color: #00897b;
+    width: 220px;
+    height: 70px;
+    margin: 8% 0% 0% 2%;
+}
+
+.icon{
+    color: white;
+    clear: both;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.about_container{
+    color: #212121;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 8%;
+}
+
+.about_us{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 3%;
+    padding-top: 8%;
+    position: relative;
+    z-index: 1;
+}
+
+.about_us_text{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5%;
+    position: relative;
+    z-index: 1;
+}
+
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 268px;
+    height: 205px;
+    text-align: center;
+    margin-left: 145px;
+    padding-top: 4%; 
+}
+
+.card:first-child{
+    margin-left: 0px;
+}
+
+.text_title{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 28px 0px 20px;
+}
+
+.text{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.cervices{
+    background-color: #e4fdf9;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 9%;
+}
+
+.card_services{
+    background-color: white;
+    width: 370px;
+    height: 440px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.fa-mobile{
+    margin-top: 50px;
+}
+
+.text_services{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 40px;
+}
+
+.buttom_services{
+    color: #212121;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 51px;
+    outline: 3px solid #212121;
+    width: 146px;
+    height: 51px;
+}
+
+.card_services:hover{
+    background-color: #00897b;
+    color: white;
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.7);
+}
+
+.card_services:hover .buttom_services{
+    outline: 3px solid white;
+    color: white;
+}
+
+.latest_work{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10%;
+    
+}
+
+.latest_buttoms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.latest_buttom{
+    color: #212121;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 51px;
+    outline: 3px solid #00897b;
+    height: 51px;
+    margin-left: 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+    
+}
+
+.latest_buttom:hover{
+    background-color: #00897b;
+    color: white;
+}
+
+.latest_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.latest_card{
+    display: flex;
+    position: relative; 
+    overflow: hidden;
+    width: 370px;
+    height: 370px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.latest_text{
+    position: absolute;
+    left: 0;
+    bottom: -100%; 
+    text-align: center;
+    width: inherit; 
+    height: inherit;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.7 );
+    transition: bottom 0.3s;
+    color: white;
+}
+
+.latest_text_title{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-top: 145px;
+}
+
+.latest_text_sub{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
+}
+
+.latest_card:hover .latest_text {
+    bottom: 0%;
+  }
+
+.latest_img{
+    width: 100%;
+}
+
+.view_all_buttom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.buttom_view_all{
+    color: white;
+    background-color: #00897b;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    width: 220px;
+    height: 70px;
+}
+
+.pricing_plan{
+    background-color: #f0f1f1;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+
+.pricing_plan_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pricing_plan_card{
+    width: 370px;
+    height: 666px;
+    background: linear-gradient( -5deg, white 70%, #3949ab 30%);
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.pricing_card_title{
+    color: white;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 48px;
+    margin-bottom: 33px;
+}
+
+.pricing_card_price{
+    color: white;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 114px;
+}
+
+.pricing_card_info{
+    color: #212121;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.p{
+    margin-top: 30px;
+}
+
+hr{
+    width: 180px;
+}
+
+.pricing_card_buttom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.buttom_pricing_card{
+    color: #212121;
+    outline: 3px solid #212121;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 56px;
+    width: 176px;
+    height: 56px;
+}
+
+.pricing_plan_card:hover{
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.7);
+}
+
+.buttom_pricing_card:hover{
+    background-color: #00897b;
+    color: white;
+    outline: 3px solid #00897b;
+}
+
+.contact_area{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 8%;
+    background-image: url(rawpixel-com-252127.jpg);
+    background-size: cover;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact_area::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+    opacity: .95;
+    z-index: 0;
+}
+
+.contact_area_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.contact_area_card{
+    width: 277px;
+    height: 207px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-left: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact_area_card:first-child{
+    margin-left: 0px;
+}
+
+.card_circle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.circle{
+    width: 106px; 
+    height: 106px;
+    background: #3949ab;
+    border-radius: 50%;
+    line-height: 135px;
+    margin-bottom: 26px;
+}
+
+.contact_area_input{
+    position: relative;
+    z-index: 1;
+}
+
+.input{
+    max-width: 502px;
+    width: 36.5%;
+    height: 83px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 15px;
+    padding-left: 20px;
+    margin-top: 75px;
+}
+
+.input:first-child{
+    margin-left: 0px;
+}
+
+.write{
+    width: 73%;
+    max-width: 1060px;
+    height: 324px;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-bottom: 39px;
+}
+
+.contact_area_buttom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    position: relative;
+    z-index: 1;
+    margin-right: 24%;
+}
+
+.buttom_contact_area{
+    width: 220px;
+    height: 70px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: white;
+    color: #212121;
+    line-height: 70px;
+}
+
+
+
+@media(max-width:1132px){
+
+    .card{
+        margin-left: 0;
+ 
+    }
+}
+
+
+@media(max-width:1113px){
+    .contact_area_card{
+        margin-left: 0;
+    }
+
+    .write{       
+        height: 224px;
+    }
+}
+
+
+
+
+
+@media(max-width:1000px){
+    .logo{
+        display: none;
+    }
+
+    i.fa.fa-search{
+        display: none;
+    }
+
+    .card_services{
+        width: 320px;
+        height: 390px;
+
+    }
+
+    .text_services{
+        margin-bottom: 18px;
+    }
+    .buttom_services{
+
+        font-size: 15px;
+        text-align: center;
+        line-height: 31px;
+
+        width: 126px;
+        height: 31px;
+    }
+
+    .latest_card{
+        width: 270px;
+        height: 270px;
+    }
+
+    .latest_cards{
+        margin-bottom: 100px;
+    }
+
+    .pricing_plan_card{
+        width: 300px;
+        height: 566px;
+    }
+    
+    .pricing_card_title{
+        margin-bottom: 28px;
+    }
+    
+    .pricing_card_price{
+        font-size: 25px;
+        margin-bottom: 70px;
+    }
+    
+    .pricing_card_buttom{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+    }
+    
+    .buttom_pricing_card{
+        font-size: 16px;
+        line-height: 36px;
+        width: 156px;
+        height: 36px;
+    }
+
+
+
+    .circle{
+        width: 100px; 
+        height: 100px;
+        margin-bottom: 23px;
+    }
+    
+    .input{
+        height: 65px;
+        margin-top: 65px;
+    }
+    
+    .write{
+        height: 224px;
+    }
+    
+    .buttom_contact_area{
+        width: 180px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .contact_area_card{
+        width: 270px;
+        height: 207px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:780px){
+    .nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+        height: 60px;
+        padding-top: 40px;
+        
+
+    }
+    .header{
+        justify-content: flex-end;
+        padding-right: 50px;
+        
+    }
+
+    .simple_menu{
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .simple_menu .burger{
+        position: absolute;
+        top: 13px;
+        right: 108px;
+    }
+
+    .simple_menu .nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .simple_menu .nav .link{
+        line-height: 70px;
+    }
+
+    .latest_buttom{
+        margin-bottom: 10px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    .sub_title{
+        font-size: 16px;
+
+    }
+
+    .our_services{
+        font-size: 16px;
+        line-height: 50px;
+        width: 200px;
+        height: 50px; 
+    }
+    
+    .hire_is_now{
+        font-size: 16px;
+        line-height: 56px;
+        width: 206px;
+        height: 56px;
+    }
+}
